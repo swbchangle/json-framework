@@ -1,10 +1,5 @@
 language: objective-c
-xcode_sdk:
-    - iphonesimulator
-    - macosx
-xcode_scheme:
-    - sbjson-ios
-    - SBJson
+xcode_project: SBJson.xcodeproj
 matrix:
   include:
     - xcode_sdk: iphonesimulator
