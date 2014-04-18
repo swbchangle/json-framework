@@ -6,3 +6,6 @@ matrix:
       xcode_scheme: sbjson-ios
     - xcode_sdk: macosx
       xcode_scheme: SBJson
+before_script:
+    - brew update
+    - brew upgrade xctool
